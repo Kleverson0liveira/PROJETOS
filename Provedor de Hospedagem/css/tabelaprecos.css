@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.vazio-azul{
+    width: 10px;
+    height: 10px;    
+    border-radius:50% ;
+    background-color: blue;
+    margin: 0 auto;
+}
+.cabeçalho, .rodape{
+    background-color:#2f86d6;;
+    color:#ffffff
+}
+.conteudo{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+ }
+.icone{
+    height: 100px;
+ }
+.icone img{
+    position: absolute;
+    height:75px;
+    top:12px
+}
+.titulo-icone{
+    position: absolute;
+    top:20px;
+    left:75px;
+}
+h1{
+    color:#000000;
+    font-size: 32px; 
+}
+.links{
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    font-size: 18px;
+}
+.links a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 5px;
+}
+.informaçoes-tabela{
+    padding: 70px 0;
+}
+table{
+    border-collapse: collapse;
+}
+.cinza{
+    background-color: #e9e9e9;    
+}
+.branco{
+    border-top: 1px solid #ffffff;
+}
+.tabela td{
+padding: 15px;
+}
+.borda-cinza{
+    border: 1px solid #e9e9e9;
+}
+.coluna-titulo th{
+    font-weight: bold;
+    font-size:37px;
+    padding: 5px 20px 20px 20px;
+    border-left: 1px solid #ffffff;
+}
+.coluna-normal th{
+    font-weight: normal;
+    padding: 20px 20px 10px 20px;
+    border-right: 1px solid #ffffff;
+}
+.rodape{
+    height: 170px;
+}
+.icone2 img{
+    position: absolute;
+    height:75px;
+    top:22px;
+    left:400px;
+}
+.titulo-icone2{
+    position: absolute;
+    top:30px;
+    left: 475px;
+}
+.rodape-texto p{
+    position: absolute;
+    top:115px;
+    left:279px;
+}
+span{
+    font-weight: bold;
+    color: #2f86d6;
+}
+.creditos{
+    position:relative;
+    height: 50px;
+}
+.creditos div{
+    position: absolute;
+    top:15px;
+    left:700px;
+}
+
+

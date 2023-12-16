@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'source sans pro', sans-serif;
+    text-decoration: none;
+}
+/* TOPO */
+.branco{
+    width: 100vw;
+    height: 80px;
+    background-color: #ffffff;
+    position: fixed;
+}
+.branco a{
+    color: black;
+}
+span{
+    color: #4e4efd
+}
+.menu-fixo{
+    width: 100%;
+    height: 78px;
+    max-width: 1024px; 
+    padding: 20px;  
+    margin:0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+}
+.topo{
+    display: flex;
+    flex: 1 1 1024px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.topo-links{
+    display: flex;
+    gap: 20px;
+}
+/* BANER */
+.baner{
+    width: 100%;
+    height: 100vh;
+    background: url("../img-fundo.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo-baner{
+    color: #ffffff;
+    background-color: rgba(0,100,0,0.4);;
+    font-size: 30px;
+    padding: 40px 20px;
+}
+/* INTRODUÇAO */
+.area{
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}
+.introducao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    line-height: 40px;
+}
+.introducao h3{
+    font-size: 32px;
+    font-weight: normal;
+    padding: 30px 0;
+
+}
+/* QUARTOS */
+.quartos{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+.quarto div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.quartos img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+.quarto p{
+    border-bottom: 2px solid  rgba(0,100,0,0.4);
+    color: #000; 
+    padding-bottom: 20px;   
+}
+/* CARDS */
+.conteiner-cards{
+    padding: 30px 0 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    gap: 20px;
+}
+.card h3{
+    padding-bottom: 20px;
+}
+.card-img{
+    width: 100px;
+    height: 100px;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+}
+.card-texto{
+    width: 90%;
+}
+/* RODAPE/VERDE */
+.rodape{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.rodape-verde{
+    background-color: #49997d;
+    padding: 30px 0;
+}
+.rodape-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.rodape-card{ display: flex;
+    gap:10px;                                  
+}
+.rodape-card a{
+    text-decoration: none;
+    color: #fff;
+}
+.calendario{
+    display: flex;
+    gap: 15px;
+}
+

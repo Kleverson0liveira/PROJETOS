@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/* TOPO DA PAGINA */
+.area-azul{
+    background-color: #2f86f6;
+}
+.topo{    
+    padding: 35px 50px;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    flex-wrap: wrap; 
+    gap: 20px; 
+    flex: 1 1 1200px;
+    max-width: 1200px;
+}
+.logo{
+    width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.logo h1 {
+    font-size: 32px;
+    color: #000000;
+}
+.logo p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.logo-img{
+    width: 80px;
+    height: 80px;
+}
+.logo-img img{
+    width: 100%;
+    height: 100%;
+}
+.topo-links{
+    width: 400px;    
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.links a{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+/* TABELA */
+.vazio-azul{
+    width: 10px;
+    height: 10px;    
+    border-radius:50% ;
+    background-color: blue;
+    margin: 0 auto;
+}
+.tabela{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+table{
+    border-collapse: collapse;
+}
+.cinza{
+    background-color: #e9e9e9;    
+}
+.branco{
+    border-top: 1px solid #ffffff;
+}
+td{
+padding: 15px;
+}
+.borda-cinza{
+    border: 1px solid #e9e9e9;
+}
+.coluna-titulo th{
+    font-weight: bold;
+    font-size:37px;
+    padding: 5px 20px 20px 20px;
+    border-left: 1px solid #ffffff;
+}
+.coluna-normal th{
+    font-weight: normal;
+    padding: 20px 20px 10px 20px;
+    border-right: 1px solid #ffffff;
+}
+/*RODAPE*/
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 10px;
+}
+.rodape-texto{
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+}
+.rodape-texto span{
+    font-weight: 700;
+    color: #2f86f6;
+}
+.rodape-branco{
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+}
