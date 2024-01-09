@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AluCar - Aluguel de Carros</title>
+        <link rel="stylesheet" href="estilos/stile.css">
+    </head>
+    <body>
+        <header>
+            <div class="conteiner">
+                <h1>AluCar</h1>
+            </div>
+            <div class="cabecalho">
+                <div class="cabecalho-texto conteiner">
+                    <p>AluCar</p>
+                    <p>Aluguel de Carros</p>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="baner"></div>
+        </section>
+        <main>
+            <div class="sobre conteiner">
+                <h2>Sobre nós</h2>
+                <p>Há 45 anos atuando na área de locação de veículos com segurança e garantia de satisfação. 
+                    Temos os melhores preços e modelos do mercado.</p>
+            </div>
+            <div class="secao-fotos conteiner">
+                <img src="img/img1.jpg" alt="fiat-uno">
+                <img src="img/img2.jpg" alt="carro">
+                <img src="img/img3.jpg" alt="carro">
+            </div>
+            <div class="pontos-positivos conteiner">
+                <p>O compromisso da AluCar é com a qualidade.</p>
+                <p>Os melhores carros estão aqui!</p>
+                <p>Assistência 24hrs.</p>
+            </div>
+            <div class="contato">
+                <p>Contato</p>
+            </div>
+            <div class="formulario conteiner">
+                <h2>Análise de cadastro</h2>
+                <p>Preencha os campos abaixo e analisaremos seus dados.
+                    Se tudo estiver correto ligaremos para marcar uma visita sua à loja.</p>
+                    <form action="" method="post">
+                
+                        <fieldset>
+                            <legend>Dados pessoais</legend>
+                            <label>
+                                Nome <br>
+                                <input type="text" placeholder="digite seu nome" name="nome" required minlength="4" maxlength="50">
+                            </label><br>
+                            <label>
+                                Data de Nacimento <br>
+                                <input type="date" name="data">
+                            </label><br>
+                            <label>
+                                Telefone <br>
+                                <input type="tel" placeholder="(xx)xxxxx-xxxx" name="telefone">
+                            </label>
+                        </fieldset>
+                
+                        <fieldset>
+                            <legend>CNH</legend>
+                            <label>
+                                Número do Registro <br>
+                                <input type="number" required placeholder="informe o número da sua CNH" minlength="11" maxlength="11">
+                            </label><br>
+                            <label>
+                                Validade <br>
+                                <input type="date" name="data">
+                            </label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Carro</legend>
+                            <label>
+                                Modelo do Carro <br>
+                                <select name="modelos" id="modelos" required >
+                                    <option value="">Escolha um carro</option>
+                                    <option value="a">a</option>
+                                    <option value="b">b</option>
+                                </select>
+                            </label>
+                        </fieldset>
+                
+                        <input type="submit" value="enviar" class="botao">
+                    </form>
+            </div>
+        </main>
+        <footer>
+            <p> Copright 2022 - AluCar</p>
+        </footer>
+    </body>
+</html>

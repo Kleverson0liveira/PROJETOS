@@ -1,0 +1,80 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.conteiner{
+    width: 100%;
+    max-width: 884px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+h1{
+    padding: .5em 0;
+}
+.cabecalho{
+    text-align: right;
+    color: #fff;
+    background-color: #000000a9;
+    width: 100%;
+    padding: 2em 0;
+    position: absolute;
+}
+.cabecalho-texto p{
+    padding:0 1em;
+}
+.baner{
+    width: 100%;
+    height: 20em;
+    background: url("../img/capa.jpg") center top no-repeat;
+    background-size: cover;
+}
+.secao-fotos{
+    display: flex;
+}
+.secao-fotos img{
+    width: 33%;
+}
+.pontos-positivos{
+    
+}
+.pontos-positivos p::before{
+    content:"";
+    border-left: 1px solid black; 
+    padding-right: 10px;
+}
+.contato{
+    background-color: red;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+.contato p{
+    background-color: darkred;    
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.formulario{
+    margin-top: 3em;
+}
+input, select, label{
+    width: 98%;
+    margin: 10px;
+}
+footer{
+    margin-top: 3em;
+    width: 100%;
+    height: 3em;
+    background-color: #a9a9a94d;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao{
+    background-color: darkred;
+    padding: 0.5em;
+    color: #fff;
+}
