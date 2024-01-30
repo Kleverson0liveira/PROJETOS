@@ -1,0 +1,142 @@
+/*DEFINIÇOES GLOBAIS*/
+*{
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px #00000033;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    background-color:#00ffff;
+    width: 100%;
+}
+.secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.links-topo{
+    margin-left: 10px;
+    padding: 15px;
+}
+.links-topo a{
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    margin: 10px;
+}
+.links-topo a:hover{
+    color: #1f1e1e;
+    transition-duration: 0.3s;
+    color: #1f1e1e;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.575);
+    border-radius: 10px;
+}
+.baner{
+    width: 100%;
+    height: 500px;
+    background: url("../assets/recepcao.png") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 2.5em;
+}
+.titulo{
+    width: 1024px;
+    margin: 0 auto;
+}
+.sobre{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 1.7em;
+    color: #636262;
+}
+.sobre-pontos{
+    color: #636262;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: inside;
+}
+.sobre h2{
+    margin-bottom: 20px;
+}
+.sobre-pontos li{
+ padding-left: 15px;
+}
+.sobre-pontos h3{
+    margin-bottom: 2em;
+}
+.galeria{
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100%;
+    max-width: 1024px;
+}
+.galeria figure{
+    box-shadow:0 0 15px #000000b0;
+    margin: 15px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+.galeria figure:hover{
+    background-color: #37395e70;
+    color: rgb(252, 252, 252);
+    font-weight: bolder;
+    transition-duration: 0.05s;
+}
+.galeria img{
+    width: 100%;
+    height: 80%;
+}
+.horarios{
+    margin: 30px;
+}
+.horarios a{
+    background-color: #0bcece;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.horarios a:hover{
+    padding: 15px;
+    font-weight: bolder;
+    color: #1f1e1e;
+    transition-duration: 0.05s;
+}
+.contato{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contato h2, .contato p{
+    margin-bottom: 20px;
+}
+span{
+    font-weight: bolder;
+}
+footer{
+    background-color: #0c6e71;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px 0 50px;
+}
