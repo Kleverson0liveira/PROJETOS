@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +12,11 @@
     
     <header>
         <div class="secao topo">
-            <img src="assets/logo.png" alt="logo">
+            <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
             <nav class="links-topo">
-                <a href="#">Sobre</a>
-                <a href="#">Especialidades</a>
-                <a href="#">Contato</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#especialidades">Especialidades</a>
+                <a href="#contato">Contato</a>
             </nav>
         </div>
     </header>
@@ -29,12 +29,12 @@
             </div>
         </section>
         <section class="secao">
-            <div class="sobre">
+            <div class="sobre" id="sobre">
                 <h2>Sobre a clínica</h2>
-                <p>Nossa clínica está pronta para receber nossos pacientes através de uma excelente estrutura, comodidade e com a segurança de que você precisam.</p>
+                <p>Nossa clínica está pronta para receber nossos pacientes através de uma excelente estrutura, comodidade e com a segurança de que você precisa.</p>
             </div>
             <div class="sobre-pontos">
-                <div>
+                <div class="imagem">
                     <img src="assets/medico.jpg" alt="medico">
                 </div>
                 <div>
@@ -51,34 +51,40 @@
             </div>
         </section>
 
-        <section class="secao sobre">
+        <section class="secao cards" id="especialidades">
             <div>
                 <h2>Uma clínica de multiespecialidades</h2>
                 <p>Nossa clínica possui diversas especialidades. Como ortopedia, pediatra, geriatria, psicologia, fisioterapia e outros.</p>
             </div>
             <div class="galeria">
-                <figure>
-                    <img src="assets/ortopedia1.png" alt="ortopedista">
-                    <figcaption>ORTOPEDIA</figcaption>
-                </figure>
+                <a href="especialidades.html#ortopedia">
+                    <figure>
+                        <img src="assets/ortopedia1.png" alt="ortopedista">
+                        <figcaption>ORTOPEDIA</figcaption>
+                    </figure>
+                </a>
 
-                <figure>
-                    <img src="assets/pediatra.png" alt="pediatra">
-                    <figcaption>PEDIATRIA</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/geriatra.png" alt="geriatra">
-                    <figcaption>GERIATRIA</figcaption>
-                </figure>
+                <a href="especialidades.html#pediatria">
+                    <figure>
+                        <img src="assets/pediatra.png" alt="pediatra">
+                        <figcaption>PEDIATRIA</figcaption>
+                    </figure>
+                </a>
+                <a href="especialidades.html#geriatria">
+                    <figure>
+                        <img src="assets/geriatra.png" alt="geriatra">
+                        <figcaption>GERIATRIA</figcaption>
+                    </figure>
+                </a>
             </div>
             <div class="horarios"> 
-                <a href="#">VER HORÁRIOS</a>
+                <a href="especialidades.html">VER HORÁRIOS</a>
             </div>
         </section>
 
-        <section class="secao contato">
+        <section class="secao contato" id="contato">
             <h2>Contato</h2>
-            <p>Nosa clínica médica está aberta de <span>segunda à sábadoo das 6:00 às 21:00</span></p>
+            <p>Nosa clínica médica está aberta de <span>segunda à sábado das 6:00 às 21:00</span></p>
             <p>Através do telefone/WhatsApp <span>(21) 99966-5555</span> você pode fazer o agendamento de consultas e exames.</p>
             <p>Estamos localizados no estacionamento da Via Parque Shopping <span>Av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro.</span></p>
             <div>

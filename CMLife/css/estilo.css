@@ -20,20 +20,24 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+}
+.topo img{
+    margin-left: 10px;
 }
 .links-topo{
     margin-left: 10px;
     padding: 15px;
+    font-weight: bolder;
+    font-size: 1.1em;
 }
 .links-topo a{
     color: #fff;
     text-decoration: none;
     padding: 3px;
     margin: 10px;
+    font-size: 1.2em;
 }
 .links-topo a:hover{
-    color: #1f1e1e;
     transition-duration: 0.3s;
     color: #1f1e1e;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.575);
@@ -50,12 +54,13 @@ header{
 }
 h1{
     font-size: 2.5em;
+    margin-left: 10px;
 }
 .titulo{
     width: 1024px;
     margin: 0 auto;
 }
-.sobre{
+.sobre, .cards{
     text-align: center;
     margin: 50px auto;
     font-size: 1.7em;
@@ -68,8 +73,8 @@ h1{
     justify-content: center;
     list-style: inside;
 }
-.sobre h2{
-    margin-bottom: 20px;
+.sobre h2, .cards h2,.cards p{
+    margin-bottom: 30px;
 }
 .sobre-pontos li{
  padding-left: 15px;
@@ -87,6 +92,10 @@ h1{
     flex-wrap: wrap;
     min-width: 100%;
     max-width: 1024px;
+}
+.galeria a{
+    text-decoration: none;
+    color: #1f1e1e;
 }
 .galeria figure{
     box-shadow:0 0 15px #000000b0;
@@ -139,4 +148,104 @@ footer{
     flex-wrap: wrap;
     gap: 30px;
     padding: 20px 0 50px;
+    color: #fff;
+}
+/*FIM DAS DEFINIÇOES GLOBAIS*/
+
+/* INICIO RESOLUÇÃO ATE 550PX */
+@media (max-width: 550px) {
+    
+.secao{
+    width: 100%;
+    margin: 0 auto;
+}
+.topo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+.links-topo{
+    width: 100%;
+    border-top: 1px rgba(20, 37, 51, 0.411) solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px;
+}
+.links-topo a{
+    font-size: 0.8em;
+}
+.baner{
+    height: 200px;
+}
+.titulo h1{
+    font-size: 1.4em;
+    margin-left: 20px;
+}
+h1,h2,h3{
+    font-weight: normal;
+
+}
+.sobre p, .cards p{
+    margin: 40px 10px;
+    font-size: 16px; 
+}
+.sobre h2, .cards h2{
+    margin: 40px 10px;
+    font-size: 1.2em;
+}
+.imagem{
+    display: none;
+}
+.sobre-pontos{
+    margin: 20px 10px;
+}
+.contato p{
+    margin:30px 10px; 
+}
+iframe{
+    height: 280px;
+}
+footer p{
+    text-align: center;
+    margin: 0 10px;
+}
+}
+/* FIM RESOLUÇÃO ATE 550PX */
+
+/* INICIO RESOLUÇÃO ATE 768PX */
+@media (max-width:768px){
+    .baner{
+        height: 300px;
+    }
+    .links-topo{
+        font-size: 1.1em;
+    }
+    .imagem{
+        display: none;
+    }
+    .sobre-pontos h3{
+        font-size: 1.3em;
+    }
+    .sobre-pontos li{
+        font-size: 1.2em;
+    }
+    .contato p{
+        margin:30px 15px; 
+    }
+    iframe{
+        height: 350px;
+    }
+}
+/* FIM RESOLUÇÃO ATE 768PX */
+
+/* INICIO RESOLUÇÃO ATE 1024PX */
+@media (max-width:1024px){
+    .baner{
+        height: 400px;
+    }
+    iframe{
+        height: 400px;
+    }
 }

@@ -1,0 +1,119 @@
+/*DEFINIÇOES GLOBAIS*/
+.secao{
+    text-align: center;
+}
+.sub-topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+.sub-topo a{
+    text-decoration: none;
+    border-bottom: 2px #589e9c solid ;
+    padding: 3px;
+    margin-top: 15px;
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.sub-topo a:hover{
+    transition-duration: 0.3s;
+    color: #26ac43;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.575);
+    border-radius: 5px;
+}
+h1{
+    font-size: 2.5em;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 2.2em;
+}
+p, td, th, a{
+    font-size: 20px;
+}
+.secao-medica img{
+    width: 25%;
+}
+.secao-medica{
+    margin: 30px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+}
+th{
+    background-color: #02c8d1;
+    color: #fff;
+    padding: 20px 5px;
+}
+tr:nth-of-type(odd){
+    background-color:#cdcdcd ;
+}
+tr:nth-of-type(even){
+    background-color: #f1f1f1;
+}
+td{
+    padding-left: 5px;
+    padding-right: 5px;
+}   
+/*FIM DAS DEFINIÇOES GLOBAIS*/
+
+
+
+/* INICIO RESOLUÇÃO ATE PX 768PX*/
+@media (max-width:768px){
+    h1{
+        font-size: 2.3em;
+        font-weight: bolder;
+    }
+    p, td, th, a{
+        font-size: 22px;
+    }
+    .secao-medica img{
+        display: none;
+    }
+    .secao-medica table{
+        width: 100%;
+        max-width: 768px;
+    }
+    h2{
+        font-weight:600;
+        font-size: 2.3em;
+        margin-bottom: 50px;
+    }
+}
+/* FIM RESOLUÇÃO ATE PX 768PX*/
+
+/* INICIO RESOLUÇÃO ATE 550PX */
+@media (max-width:550px){
+    h1{
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
+    p{
+        font-size: 16px;
+        margin: 0 5px;
+    }
+    td, th{
+        font-size: 16px;
+    }
+    br, .secao-medica img{
+        display: none;
+    }
+    .secao-medica table{
+        width: 100%;
+    }
+    h2{
+        font-weight:600;
+    }
+}
+/* FIM DA RESOLUÇÃO ATE 550PX */
