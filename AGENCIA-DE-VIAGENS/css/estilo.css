@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, header .limite{
+    background-color: #80808029;
+    font-family: 'Raleway', sans-serif;
+}
+.fundo{
+    background: url("../imagens/bahia.jpg") no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+header{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    display: flex;  
+}
+header img{
+    width: 32px;
+    height: 32px;
+}
+header .limite{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.limite{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+select{
+    width: 100%;
+}
+.roxo{
+    background-color: #5d15d1;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.roxo img{
+    width: 20px;
+    height: 20px;
+    rotate: -45deg;
+    margin-right: 5px;
+}
+.branco{
+    background-color: #fff;
+    width: 100%;
+    padding: 30px 25px 20px 25px;
+}
+.branco h3{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 16px;
+}
+input, select{
+    margin: 10px 0;
+    padding: 0 10px;
+    height: 32px;
+}
+select{
+    background-color: #fff;
+}
+.ifo-basico input{
+    width: 100%;
+}
+.ifo-viagem{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+.ifo-viagem div{
+    width: 100%;
+}
+.ifo-viagem input{
+    width: 100%;
+}
+fieldset{
+    border: none;
+}
+.ifo-extra{
+    display: flex;
+    align-items: center;
+}
+.ifo-extra label{
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+.ifo-extra input{
+    width: 15px;
+    margin-right: 8px;
+}
+button{
+    width: 160px;
+    height: 32px;
+    background-color: #5d15d1;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    margin-top: 12px;
+}
+button:hover{
+    cursor: pointer;
+}
+.galeria{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.galeria h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.galeria h4{
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+span{
+    font-weight: bolder;
+}
+.galeria-imagens{
+    display: flex;
+    height: 375px;
+    gap: 20px;
+}
+.imagem-destaque img, .quatro-imagens img{
+    width: 100%;
+    height: 100%;  
+    object-fit: cover; 
+}
+.imagem-destaque figcaption{
+    width: 100%;
+    position: relative;
+    bottom: 34px;
+}
+.quatro-imagens{
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.quatro-imagens figure{
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+.imagem-destaque figcaption, .quatro-imagens figcaption{
+    background-color: rgba(0, 0, 0, 50%);
+    color: #fff;
+    font-size: 17px;
+    padding: 5px 10px;
+}
+.quatro-imagens figcaption{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.galeria-ofertas{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.galeria-ofertas figure{
+    width: calc(50% - 10px);
+    height: 100%;
+    object-fit: cover;
+    
+}
+.galeria-ofertas img{
+    width: 100%;
+    height: 100%;
+}
+.galeria-ofertas figcaption{
+    padding: 20px;
+    background-color: #fff;
+    font-size: 16px;
+}
+.galeria-ofertas figcaption p{
+    margin-top: 15px;
+    color: grey;
+    font-size: 14px;
+}
+footer{
+    width: 100%;
+    margin-top: 32px;
+    background-color: #5d15d1;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.rodape-part{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+.rodape-part div{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.rodape-part h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.rodape-part img{
+    width: 18px;
+}
+.rodape-part p{
+    font-size: 14px;
+    margin-left: 10px;
+}
+/* LARGURA ATE 1100PX */
+@media (max-width:1100px){
+    .limite{
+        width: 90%;
+    }
+}
+/* FIM DA LARGURA 1100PX */
+
+/* INICIO LARGURA ATE 768PX */
+@media (max-width:768px){
+    button{
+        width: 100%;
+    }
+    .galeria-imagens{
+        flex-direction: column;
+        height: 100%;
+    }
+    .quatro-imagens{
+        width: 100%;
+    }
+    .quatro-imagens figure, .imagem-destaque{
+        width: 100%;
+        height: 225px;
+        margin-top: 15px;
+    }
+    .galeria-ofertas{
+        flex-direction: column;
+        width: 100%;
+    }
+    .galeria-ofertas figure{
+        width: 100%;
+        margin-top: 15px;
+    } 
+    .rodape{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rodape-part{
+        width: 250px;
+    }
+}
+/* FIM LARGURA 768PX */
+
+/* INICIO DA LARGURA ATE 540PX */
+@media (max-width:540px){
+    .ifo-viagem{
+        flex-direction: column;
+    }
+    .ifo-extra{
+        flex-direction: column;
+        align-items: baseline;
+    }
+    label{
+        width: 100%;
+    }
+}
